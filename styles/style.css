@@ -1,0 +1,15 @@
+/* CUERPO */
+body{
+    text-align: center; /* centrado */
+}
+
+/* TÍTULO, INPUT Y PÁRRAFO */
+h1, input, p{
+    font-family: 'Courier New', Courier, monospace; /* tipo de letra */
+}
+
+/* BOTÓN */
+button{
+    background-color: #0078FF; /* color de fondo */
+    color:white; /* color del texto */
+}

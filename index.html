@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- enlazo los estilos CSS -->
+        <link rel="stylesheet" href="styles/style.css">
+        <title>EXAMEN DWEC - DIW</title>
+    </head>
+
+    <body>
+        <!-- título -->
+        <h1>Calculadora de área, perímetro y diagonal de un rectángulo</h1>
+
+        <!-- labels e inputs para introducir los datos (con el placeholder introducimos un texto informativo para el usuario)-->
+        <label>Longitud: </label>
+        <input type="number" id="long" placeholder="Ingrese la longitud">
+        <br>
+        <br>
+        <label>Ancho: </label>
+        <input type="number" id="anch" placeholder="Ingrese el ancho">
+        <br>
+        <br>
+        <!-- boton para calcular (accede a la función para realizar el calculo)-->
+        <button type="button" onclick="calcular()">Calcular</button>
+        <br>
+        <br>
+        <br>
+        <!-- párrafos para mostrar los cálculos o el mensaje de error por pantalla-->
+        <p id="msjerror"></p>
+        <p id="calcarea"></p>
+        <p id="calcperimetro"></p>
+        <p id="calcdiagonal"></p>
+
+        <!-- enlazo del archivo de JavaScript-->
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
