@@ -1,6 +1,6 @@
 // JAIME FERNÄNDEZ CALVO
-// 
-
+// https://github.com/jaimecamocha/ExamenTema1DWECDIW.git
+  
 function calcular(){
     // reiniciamos el texto párrafos para que cuando vuelva a darle al botón no se pise
     document.getElementById("msjerror").innerHTML = "";
